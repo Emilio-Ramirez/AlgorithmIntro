@@ -145,10 +145,9 @@ var Heapify = function (arr) {
 };
 
 var HeapSort = function (arr) {
-  Heapify(arr);
+  Heapify(arr); //This go only one
 
-  let heapSize = arr.length - 1;
-  // Corrected loop
+  // Corrected loo
   for (let i = arr.length - 1; i > 0; i--) {
     [arr[0], arr[i]] = [arr[i], arr[0]];
     siftDown(arr, 0, i);
@@ -158,3 +157,25 @@ var HeapSort = function (arr) {
 
 console.log(HeapSort([1, 2, 3, 4, 5])); // Should be [5, 4, 3, 1, 2]
 console.log(HeapSort);
+
+/*
+ * function siftDown:
+   - Single call complexity: O(log n)
+   - Because: Maximum path from any node to leaf is log n
+   - Not recursive in implementation, but recursive in nature
+
+ * function Heapify:
+   - Looks deceptively like O(n log n) at first
+   - Actual complexity: O(n)
+   - Key insight: Level-based analysis shows
+     • Top levels: few nodes × many moves
+     • Bottom levels: many nodes × few moves
+     • Mathematically sums to O(n)
+
+ * function HeapSort:
+   - Initial Heapify: O(n)
+   - Main loop: O(n) iterations
+   - Each iteration: O(log n) for siftDown
+   - Total complexity: O(n log n)
+   - Unlike Heapify, here each siftDown MUST go potential full height
+*/
