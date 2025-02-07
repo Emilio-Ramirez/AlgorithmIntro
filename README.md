@@ -33,8 +33,6 @@ root((DSA Practice))
       Search in Rotated Array
   (Sorting)
     [Advanced Algorithms]
-      Bucket Sort
-      Counting Sort
       Heap Sort
       Merge Sort
       Quick Sort
