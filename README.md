@@ -5,52 +5,76 @@ This repository contains implementations and exercises for various Data Structur
 ```mermaid
 mindmap
 root((DSA Practice))
-  (Dynamic Programming)
-    [Array Problems]
-      Target Sum
-  (Hash Tables)
-    [Array Applications]
-      Contains Duplicate
-    [String Applications]
-      Group Anagrams
-      Jewels and Stones
-      Two Sum
-      Valid Anagram
-  (Linked Lists)
-    [Cycle Detection]
-      Linked List Cycle
-    [List Operations]
-      Add Two Numbers
-    [List Merging]
-      Merge Two Sorted Lists
+  (DynamicProgramming)
+  [Array]
+    targetSum
+  (HashTables)
+  [ArrayProblems]
+    containsDuplicate
+  [Implementation]
+  [StringProblems]
+    LearningHashMap
+    groupAnagrams
+    jewelsAndStones
+    twoSum
+    validAnagram
+  (LinkedList)
+  [Cycle]
+    linkedListCycle
+  [Manipulation]
+    AddTwoNumbers
+  [Merge]
+    margdeTwoSortedLists
   (Searching)
-    [Binary Search Implementation]
-      Basic Binary Search
-    [Matrix Searching]
-      Search 2D Matrix
-    [Rotated Array Problems]
-      Find Minimum in Rotated Array
-      Search in Rotated Array
+  [BinarySearch]
+    binarySearch
+  [MatrixSearch]
+    Search2DMatrix
+  [RotatedArray]
+    FindMinimumRotatedSortedArray
+    SearchRotatedArray
   (Sorting)
-    [Advanced Algorithms]
-      Heap Sort
-      Merge Sort
-      Quick Sort
-      Radix Sort
-    [Basic Algorithms]
-      Bubble Sort
-      Insertion Sort
-      Selection Sort
-      Recursion Practice
+  [Advanced]
+    heapSort
+    margeSort
+    quickSort
+    radixSort
+  [Basic]
+    FibonacciRecursion
+    InsertionSort
+    buubleSort
+    selectionSort
   (Stack)
-    [Stack Validation]
-      Valid Parentheses
-  (String & Array)
-    [Sliding Window]
-      Longest Substring
-    [Array Statistics]
-      Array Median
+  [Operations]
+  [Validation]
+    isValidStack
+  (StringArray)
+  [SlidingWindow]
+    longestSubstring
+  [Statistics]
+    medianOfArray
+  (Trees)
+  [BinaryTree]
+    [Ancestry]
+      lowestCommonAncestorBST
+    [Balance]
+      isBalanced
+    [Comparision]
+      sameTree
+    [Symmetry]
+      isSymmetric
+    [Traversal]
+      diameterBinaryTree
+      inorderTraversal
+      levelOrderTraversal
+      maxDepth
+      postoderTraversal
+      preorderTraversal
 ```
+# AlgorithmIntro
+
+This repository contains implementations and exercises for various Data Structures and Algorithms (DSA) topics. The structure follows a clear hierarchy explained below.
+
 
 ## Hierarchy Explanation
 
@@ -61,13 +85,6 @@ The repository follows a 4-level hierarchy:
 3. **Subcategories** : Specific problem types or implementation areas
 4. **Exercises** : Individual problems and their solutions
 
-```mermaid
-mindmap
-root((Main Topic))
-  (Category)
-    [Subcategory]
-      Exercise
-```
 
 ## Technology Stack
 
