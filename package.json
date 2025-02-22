@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "name": "algorithmintro",
+  "version": "1.0.0",
+  "description": "This repository contains implementations and exercises for various Data Structures and Algorithms (DSA) topics. The structure follows a clear hierarchy explained below.",
+  "main": "firstBadVersion.js",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emilio-Ramirez/AlgorithmIntro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emilio-Ramirez/AlgorithmIntro/issues"
+  },
+  "homepage": "https://github.com/Emilio-Ramirez/AlgorithmIntro#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "vitest": "^3.0.6"
+  }
+}

@@ -73,29 +73,5 @@ var lowestCommonAncestor = function (root, p, q) {
   return left ? left : right;
 };
 
-// Test Case 1: Finding LCA of 2 and 4
-let tree1 = new TreeNode(5);
-tree1.left = new TreeNode(3);
-tree1.right = new TreeNode(7);
-tree1.left.left = new TreeNode(2);
-tree1.left.right = new TreeNode(4);
-tree1.right.right = new TreeNode(8);
-console.log(lowestCommonAncestor(tree1, tree1.left.left, tree1.left.right)); // Should find 3 as LCA
-
-// Test Case 2: Finding LCA of 3 and 2 (parent-child case)
-let tree2 = new TreeNode(5);
-tree2.left = new TreeNode(3);
-tree2.right = new TreeNode(7);
-tree2.left.left = new TreeNode(2);
-tree2.left.right = new TreeNode(4);
-tree2.right.right = new TreeNode(8);
-console.log(lowestCommonAncestor(tree2, tree2.left, tree2.left.left)); // Should find 3 as LCA
-
-// Test Case 3: Finding LCA of 2 and 8 (nodes in different subtrees)
-let tree3 = new TreeNode(5);
-tree3.left = new TreeNode(3);
-tree3.right = new TreeNode(7);
-tree3.left.left = new TreeNode(2);
-tree3.left.right = new TreeNode(4);
-tree3.right.right = new TreeNode(8);
-console.log(lowestCommonAncestor(tree3, tree3.left.left, tree3.right.right)); // Should find 5 as LCA
+//Exporting function for tests
+export { lowestCommonAncestor, TreeNode };
