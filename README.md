@@ -1,7 +1,6 @@
 # AlgorithmIntro
 
 This repository contains implementations and exercises for various Data Structures and Algorithms (DSA) topics. The structure follows a clear hierarchy explained below.
-
 ```mermaid
 mindmap
 root((DSA Practice))
@@ -72,6 +71,10 @@ root((DSA Practice))
       postoderTraversal
       preorderTraversal
 ```
+# AlgorithmIntro
+
+This repository contains implementations and exercises for various Data Structures and Algorithms (DSA) topics. The structure follows a clear hierarchy explained below.
+
 # AlgorithmIntro
 
 This repository contains implementations and exercises for various Data Structures and Algorithms (DSA) topics. The structure follows a clear hierarchy explained below.
