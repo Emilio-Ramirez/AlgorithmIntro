@@ -1,9 +1,11 @@
 # AlgorithmIntro
 
 This repository contains implementations and exercises for various Data Structures and Algorithms (DSA) topics. The structure follows a clear hierarchy explained below.
+
 ```mermaid
 mindmap
 root((DSA Practice))
+  (.vscode)
   (DynamicProgramming)
   [Array]
     targetSum
@@ -55,7 +57,6 @@ root((DSA Practice))
   (Trees)
   [BinaryTree]
     [Ancestry]
-      lowestCommonAncestor.test
       lowestCommonAncestorBST
     [Balance]
       isBalanced
@@ -70,15 +71,8 @@ root((DSA Practice))
       maxDepth
       postoderTraversal
       preorderTraversal
+  (utils)
 ```
-# AlgorithmIntro
-
-This repository contains implementations and exercises for various Data Structures and Algorithms (DSA) topics. The structure follows a clear hierarchy explained below.
-
-# AlgorithmIntro
-
-This repository contains implementations and exercises for various Data Structures and Algorithms (DSA) topics. The structure follows a clear hierarchy explained below.
-
 
 ## Hierarchy Explanation
 
