@@ -73,6 +73,8 @@ root((DSA Practice))
       maxDepth
       postoderTraversal
       preorderTraversal
+    [Validation]
+      validateBST
   (utils)
 ```
 
