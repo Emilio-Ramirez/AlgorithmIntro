@@ -1,6 +1,8 @@
 # AlgorithmIntro
 
-This repository contains implementations and exercises for various Data Structures and Algorithms (DSA) topics. The structure follows a clear hierarchy explained below.
+This repository contains implementations and exercises for various Data
+Structures and Algorithms (DSA) topics.
+The structure follows a clear hierarchy explained below.
 
 ```mermaid
 mindmap
