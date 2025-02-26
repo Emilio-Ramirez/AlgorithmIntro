@@ -75,6 +75,10 @@ root((DSA Practice))
       preorderTraversal
     [Validation]
       validateBST
+    [Search]
+      insertintoBST
+      searchBST
+      deleteNodeBST
   (utils)
 ```
 
